@@ -1,0 +1,64 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+.nav a{
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    text-decoration: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nav a:hover{
+    background-color:rgb(24,49,83);
+}
+
+.nav a:visited{
+    color: black;
+}
+
+.nav{
+    
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    border-left: 10px;
+}
+
+.content{
+    display: flex;
+}
+
+.leftside{
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 10%;
+    height: 500px;
+    padding-left: 3px ;
+}
+
+.rightside{
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 2%;
+    border: 1px solid black;
+    height: 500px;
+}
+
+body p{
+    font-size: 20px;
+}
+
+.rightside h3{
+    font-size: 30px;
+}
